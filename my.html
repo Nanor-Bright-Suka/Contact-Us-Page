@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Contact Form</title>
+    <link rel="stylesheet" href="my.css">
+</head>
+<body>
+    <header>
+
+        <button class="harmburger">
+        <span onclick="openNavbar()">☰</span>
+        </button>
+        
+        <div class="logo">Your Logo </div>
+        
+        <nav id="naruto">
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Enquiry</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        </ul>
+        </nav>
+        
+        <button class="call">Call us</button>
+        
+        </header>
+
+        <!-- Banner Section  -->
+        
+            <section class="banner">
+               <img src="Screenshot 2024-01-05 204747.png"> 
+               <div class="text">
+               <h2>Get in Touch With Us </h2>
+               <p> We are here to answer any question you may have </p>
+               </div>
+            </section>
+    
+
+                 <!-- The Form Section -->
+
+                 <form method="post" class="formm">
+                    <div class="form-container">
+                            <h2>Your Details</h2>
+                    <label for="yourname">Name:</label>
+                    <input type="text" id="yourname" name="name">
+
+                    <label for="youremail">Email:</label>
+                    <input type="text" id="youremail" name="email">
+
+                    <label for="yournumber">Phone:</label>
+                    <input type="tel" id="yournumber" name="number">
+
+                    <label for="yourmessage">Message:</label>
+                 <textarea name="message" id="yourmessage" rows="4" required></textarea>
+                 
+                 <button  class="sub">Submit</button>
+                </div>
+                 </form>
+
+                 <section class="Contact-info">
+                    <h2>Contact Information</h2>
+                    <address>
+                        Exotic Gel Limited <br>
+                        123 street <br>
+                        Akosombo-kpong <br>
+                        Phone : <a href="tel:0254735474">0254735474</a> <br>
+                        Email : <a href="mailto:brightnanor19@gmail.com">brightnanor19@gmail.com</a>
+                    </address>
+                 </section>
+
+                 <footer>
+                 <div class="footer">
+                    &copy; Your Company.All rights reserved.
+                 </div>
+                </footer>
+                <script src="script.js"></script>
+</body>
+</html>

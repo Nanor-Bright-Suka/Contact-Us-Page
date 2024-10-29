@@ -1,0 +1,193 @@
+ * {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ body {
+    font-size: 15px;
+ }
+ header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background: black;
+    color: white;
+    height: 4rem;
+    padding: 20px;
+    
+    
+ }
+ 
+.harmburger{
+   margin-left: 10px;
+} 
+
+.logo {
+   font-size: 2rem;
+}
+
+.call {
+   margin-right: 10px;
+}
+nav {
+ width: 50%;
+  text-align: center;
+}
+
+nav ul {
+   list-style-type: none;
+   display: flex;
+   justify-content: space-between;
+}
+
+
+nav ul li {
+   display: inline-block;
+}
+
+nav ul li a {
+   text-decoration:  none;
+   color: white;
+   padding: 1rem;
+   font-size: 1.3rem;
+  
+}
+.call{
+   background-color: green;
+   border-radius: 8px;
+   font-size: 1.2rem;
+   padding: 5px;
+   margin-left: 5rem;
+}
+
+
+/* Banner Section */
+
+.banner {
+   /* display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column; */
+   text-align: center;
+    background-color:  white;
+    margin: 0 auto;
+}
+.banner img {
+   max-width: 100%;
+   height: auto;
+  /* max-width: 100%;
+    margin: 0 auto;
+    height: auto; */
+}
+ .text {
+   text-align: center;
+   margin-bottom: 10px;
+}
+.text h2 {
+   font-size: 1.5rem;
+   font-weight: 500px;
+   padding: 1rem;
+} 
+
+  /* The Contact Form */
+
+  .formm {
+   padding: 30px 0px;
+   margin: 0 20px;
+  }
+
+  .form-container {
+   max-width: 50%;
+   padding: 20px;
+   margin: 0 auto;
+   border: 1px solid black;
+   border-radius: 15px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+
+  .formm h2 {
+   text-align: center;
+   margin-bottom: 3rem;
+  }
+  .form-container label {
+   display: block;
+   font-weight: bold;
+   
+  }
+  .form-container input, textarea {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 20px;
+   border: 1px solid black;
+   border-radius: 8px;
+   resize: vertical;
+  }
+
+  .sub {
+   padding: 10px;
+   font-size: 20px;
+   border-radius: 12px;
+   background: green;
+   color: #ffffff;
+   cursor: pointer;
+  }
+
+  /* Contact Information From Company */
+  .Contact-info {
+   text-align: center;
+   padding: 30px 0;
+   background-color: rgb(235, 218, 218);
+  }
+  .Contact-info h2 {
+   margin-bottom: 20px;
+   
+  }
+  address {
+   font-size: 20px;
+   padding: 15px;
+  }
+
+  .footer {
+   background-color: rgb(48, 44, 44);
+   padding: 20px;
+   text-align: center;
+   color: aliceblue;
+  }
+
+
+
+  .harmburger {
+   display: none;
+      color: black;
+   font-size: 2rem;
+  }
+
+@media screen and (max-width: 768px){
+   .logo {
+      display: none;
+   }
+   .harmburger {
+      display: flex;
+   }
+   #naruto {
+      position: absolute;
+      top: 4rem;
+      left:0;
+      background-color: rgb(185, 164, 164);
+      width: 100%;
+      color: rgb(7, 7, 7);
+      display: none;
+   }
+   #naruto.active{
+      display: flex;
+      flex-direction: row;
+      padding: 15px;
+   }
+   #naruto a:hover,
+   #naruto a:focus {
+      background-color: black;
+      border-radius: 20px;
+   }
+}
